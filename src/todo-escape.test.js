@@ -4,7 +4,7 @@ describe('todo-escape', function() {
   var template = '<input todo-escape="escapePressed=true" />';
   var scope, compile;
 
-  beforeEach(module('todomvc'));
+  beforeEach(module('todoEscape'));
 
   beforeEach(inject(function($rootScope, $compile) {
     scope = $rootScope.$new();
